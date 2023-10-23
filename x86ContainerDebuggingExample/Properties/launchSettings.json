@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "x86ContainerDebuggingExample": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
