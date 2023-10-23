@@ -6,6 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+    <DockerDebuggeeProgram>c:\Program Files (x86)\dotnet\dotnet.exe</DockerDebuggeeProgram>
+    <ContainerVsDbgPath>$(DevEnvDir)\Remote Debugger</ContainerVsDbgPath>
+    <DockerfileFastModeStage>base</DockerfileFastModeStage>
   </PropertyGroup>
 
   <ItemGroup>
